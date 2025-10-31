@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Crear, mover, copiar y borrar archivos y carpetas</h1>
+    <p>En la terminal, existen varios comandos que te permiten crear, mover, copiar y borrar archivos y carpetas. A continuación, se describen los comandos básicos para realizar estas operaciones.</p>
+
+    <h2>Crear archivos y carpetas</h2>
+    <ul>
+        <li><code>touch [nombre_archivo]</code>: Crea un archivo vacío con el nombre especificado.</li>
+        <pre><code>touch archivo.txt
+</code></pre>
+        <li><code>mkdir [nombre_directorio]</code>: Crea un nuevo directorio con el nombre especificado.</li>
+        <pre><code>mkdir nueva_carpeta
+</code></pre>
+    </ul>
+
+    <h2>Mover y renombrar archivos y carpetas</h2>
+    <ul>
+        <li><code>mv [origen] [destino]</code>: Mueve o renombra un archivo o directorio.</li>
+        <pre><code>mv archivo.txt /ruta/al/nuevo/directorio/
+mv archivo.txt nuevo_nombre.txt
+</code></pre>
+    </ul>
+
+    <h2>Copiar archivos y carpetas</h2>
+    <ul>
+        <li><code>cp [origen] [destino]</code>: Copia un archivo o directorio.</li>
+        <pre><code>cp archivo.txt /ruta/al/nuevo/directorio/
+cp -r carpeta_original/ /ruta/al/nueva/copia/
+</code></pre>
+    </ul>
+
+    <h2>Borrar archivos y carpetas</h2>
+    <ul>
+        <li><code>rm [nombre_archivo]</code>: Elimina un archivo.</li>
+        <pre><code>rm archivo.txt
+</code></pre>
+        <li><code>rmdir [nombre_directorio]</code>: Elimina un directorio vacío.</li>
+        <pre><code>rmdir carpeta_vacia
+</code></pre>
+        <li><code>rm -r [nombre_directorio]</code>: Elimina un directorio y su contenido de forma recursiva.</li>
+        <pre><code>rm -r carpeta_con_contenido/
+</code></pre>
+    </ul>
+
+    <p>Con estos comandos, podrás gestionar archivos y carpetas desde la terminal de manera efectiva. Practica estos comandos para familiarizarte con ellos y mejorar tu eficiencia en el uso de la línea de comandos.</p>
+</body>
+</html>
